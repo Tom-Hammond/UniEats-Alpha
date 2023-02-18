@@ -29,6 +29,7 @@ namespace UniEats_Alpha
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.BackButton = new System.Windows.Forms.Button();
             this.UsernameTextBox = new System.Windows.Forms.TextBox();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
@@ -86,7 +87,7 @@ namespace UniEats_Alpha
             this.LoginButton.BackColor = System.Drawing.Color.Black;
             this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.LoginButton.Location = new System.Drawing.Point(43, 498);
+            this.LoginButton.Location = new System.Drawing.Point(46, 445);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(226, 72);
             this.LoginButton.TabIndex = 6;
@@ -116,10 +117,10 @@ namespace UniEats_Alpha
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.BackButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LoginForm";
-            this.Text = "LoginForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

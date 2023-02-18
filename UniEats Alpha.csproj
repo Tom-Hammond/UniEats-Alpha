@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IphoneBack.png" />
+    <None Include="Resources\PasswordIcon.png" />
     <None Include="Resources\BackArrow.png" />
     <None Include="Resources\IphoneHomePage.png" />
     <None Include="background-Homepage.png" />

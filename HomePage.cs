@@ -28,9 +28,9 @@ namespace UniEats_Alpha
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //RegisterPage RegisterPage = new RegisterPage();
-            //RegisterPage.Show();
+            this.Hide();
+            RegisterForm RegisterPage = new RegisterForm();
+            RegisterPage.Show();
         }
     }
 }
