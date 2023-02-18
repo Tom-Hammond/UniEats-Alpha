@@ -21,16 +21,16 @@ namespace UniEats_Alpha
         private void LoginButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-           LogInPage LoginPage = new LogInPage();
+            LoginForm LoginPage = new LoginForm();
            LoginPage.Show();
             
         }
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            RegisterPage RegisterPage = new RegisterPage();
-            RegisterPage.Show();
+            //this.Hide();
+            //RegisterPage RegisterPage = new RegisterPage();
+            //RegisterPage.Show();
         }
     }
 }

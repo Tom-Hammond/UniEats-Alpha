@@ -91,6 +91,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RegisterButton);
             this.Controls.Add(this.LoginButton);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "HomePage";
             this.ResumeLayout(false);
             this.PerformLayout();

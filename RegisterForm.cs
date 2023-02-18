@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace UniEats_Alpha
 {
-    public partial class LogInPage
-{
-        public LogInPage()
+    public partial class RegisterForm : Form
+    {
+        public RegisterForm()
         {
             InitializeComponent();
         }
-
-       
-
-        
     }
 }

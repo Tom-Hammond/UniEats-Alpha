@@ -1,7 +1,7 @@
 ﻿
 namespace UniEats_Alpha
 {
-    partial class RegisterPage : HomePage
+    partial class RegisterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -12,13 +12,13 @@ namespace UniEats_Alpha
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected void Dispose(bool disposing)
+        protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
                 components.Dispose();
             }
-            Dispose(disposing);
+            base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
@@ -31,13 +31,14 @@ namespace UniEats_Alpha
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(317, 642);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.BackgroundImage = global::UniEats_Alpha.Properties.Resources.IphoneHomePage;
+            this.ClientSize = new System.Drawing.Size(315, 634);
+            this.Name = "RegisterForm";
+            this.Text = "RegisterForm";
             this.ResumeLayout(false);
 
         }
@@ -45,5 +46,3 @@ namespace UniEats_Alpha
         #endregion
     }
 }
-
-
