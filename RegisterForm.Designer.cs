@@ -94,8 +94,10 @@ namespace UniEats_Alpha
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(20, 26);
             this.BackButton.TabIndex = 8;
+            this.BackButton.Text = "Sih";
             this.BackButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BackButton.UseVisualStyleBackColor = false;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // UsernameLabel
             // 
