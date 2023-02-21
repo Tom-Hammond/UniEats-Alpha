@@ -36,6 +36,8 @@ namespace UniEats_Alpha
             this.LoginLabel = new System.Windows.Forms.Label();
             this.LoginButton = new System.Windows.Forms.Button();
             this.RegisterTextLabel = new System.Windows.Forms.Label();
+            this.InvaildUnameOrPword = new System.Windows.Forms.Label();
+            this.RegisterNowLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BackButton
@@ -93,6 +95,7 @@ namespace UniEats_Alpha
             this.LoginButton.TabIndex = 6;
             this.LoginButton.Text = "LOG IN";
             this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // RegisterTextLabel
             // 
@@ -104,6 +107,30 @@ namespace UniEats_Alpha
             this.RegisterTextLabel.Text = "Forgot password?";
             this.RegisterTextLabel.Click += new System.EventHandler(this.RegisterTextLabel_Click);
             // 
+            // InvaildUnameOrPword
+            // 
+            this.InvaildUnameOrPword.AutoSize = true;
+            this.InvaildUnameOrPword.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InvaildUnameOrPword.Location = new System.Drawing.Point(40, 385);
+            this.InvaildUnameOrPword.Name = "InvaildUnameOrPword";
+            this.InvaildUnameOrPword.Size = new System.Drawing.Size(238, 18);
+            this.InvaildUnameOrPword.TabIndex = 8;
+            this.InvaildUnameOrPword.Text = "Password or username was invalid";
+            this.InvaildUnameOrPword.Visible = false;
+            // 
+            // RegisterNowLabel
+            // 
+            this.RegisterNowLabel.AutoSize = true;
+            this.RegisterNowLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RegisterNowLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterNowLabel.Location = new System.Drawing.Point(40, 414);
+            this.RegisterNowLabel.Name = "RegisterNowLabel";
+            this.RegisterNowLabel.Size = new System.Drawing.Size(93, 15);
+            this.RegisterNowLabel.TabIndex = 9;
+            this.RegisterNowLabel.Text = "Register Now";
+            this.RegisterNowLabel.Visible = false;
+            this.RegisterNowLabel.Click += new System.EventHandler(this.RegisterNowLabel_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +138,8 @@ namespace UniEats_Alpha
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::UniEats_Alpha.Properties.Resources.IphoneBack;
             this.ClientSize = new System.Drawing.Size(315, 637);
+            this.Controls.Add(this.RegisterNowLabel);
+            this.Controls.Add(this.InvaildUnameOrPword);
             this.Controls.Add(this.RegisterTextLabel);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.LoginLabel);
@@ -135,5 +164,7 @@ namespace UniEats_Alpha
         private System.Windows.Forms.Label LoginLabel;
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Label RegisterTextLabel;
+        private System.Windows.Forms.Label InvaildUnameOrPword;
+        private System.Windows.Forms.Label RegisterNowLabel;
     }
 }
