@@ -38,7 +38,8 @@ namespace UniEats_Alpha
             this.PasswrodLabel = new System.Windows.Forms.Label();
             this.UserLabel = new System.Windows.Forms.Label();
             this.UserTypeDropDown = new System.Windows.Forms.ComboBox();
-            this.PasswordHide = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // SignupBotton
@@ -46,9 +47,9 @@ namespace UniEats_Alpha
             this.SignupBotton.BackColor = System.Drawing.Color.Black;
             this.SignupBotton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignupBotton.ForeColor = System.Drawing.SystemColors.Control;
-            this.SignupBotton.Location = new System.Drawing.Point(46, 445);
+            this.SignupBotton.Location = new System.Drawing.Point(122, 814);
             this.SignupBotton.Name = "SignupBotton";
-            this.SignupBotton.Size = new System.Drawing.Size(226, 72);
+            this.SignupBotton.Size = new System.Drawing.Size(380, 126);
             this.SignupBotton.TabIndex = 12;
             this.SignupBotton.Text = "SIGN UP";
             this.SignupBotton.UseVisualStyleBackColor = false;
@@ -57,29 +58,29 @@ namespace UniEats_Alpha
             // RegisterLabel
             // 
             this.RegisterLabel.AutoSize = true;
-            this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterLabel.Location = new System.Drawing.Point(43, 126);
+            this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterLabel.Location = new System.Drawing.Point(77, 150);
             this.RegisterLabel.Name = "RegisterLabel";
-            this.RegisterLabel.Size = new System.Drawing.Size(198, 55);
+            this.RegisterLabel.Size = new System.Drawing.Size(246, 69);
             this.RegisterLabel.TabIndex = 11;
             this.RegisterLabel.Text = "Sign-Up";
             // 
             // PasswordTextBox
             // 
             this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(46, 291);
+            this.PasswordTextBox.Location = new System.Drawing.Point(89, 437);
             this.PasswordTextBox.MaxLength = 16;
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(226, 26);
+            this.PasswordTextBox.Size = new System.Drawing.Size(250, 26);
             this.PasswordTextBox.TabIndex = 10;
             // 
             // UsernameTextBox
             // 
             this.UsernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameTextBox.Location = new System.Drawing.Point(46, 218);
+            this.UsernameTextBox.Location = new System.Drawing.Point(87, 318);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(226, 23);
+            this.UsernameTextBox.Size = new System.Drawing.Size(250, 23);
             this.UsernameTextBox.TabIndex = 9;
             // 
             // BackButton
@@ -90,9 +91,9 @@ namespace UniEats_Alpha
             this.BackButton.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BackButton.Location = new System.Drawing.Point(46, 61);
+            this.BackButton.Location = new System.Drawing.Point(48, 76);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(20, 26);
+            this.BackButton.Size = new System.Drawing.Size(49, 58);
             this.BackButton.TabIndex = 8;
             this.BackButton.Text = "Sih";
             this.BackButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -102,30 +103,30 @@ namespace UniEats_Alpha
             // UsernameLabel
             // 
             this.UsernameLabel.AutoSize = true;
-            this.UsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameLabel.Location = new System.Drawing.Point(43, 192);
+            this.UsernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameLabel.Location = new System.Drawing.Point(80, 252);
             this.UsernameLabel.Name = "UsernameLabel";
-            this.UsernameLabel.Size = new System.Drawing.Size(111, 17);
+            this.UsernameLabel.Size = new System.Drawing.Size(264, 39);
             this.UsernameLabel.TabIndex = 14;
             this.UsernameLabel.Text = "Enter Username";
             // 
             // PasswrodLabel
             // 
             this.PasswrodLabel.AutoSize = true;
-            this.PasswrodLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswrodLabel.Location = new System.Drawing.Point(43, 262);
+            this.PasswrodLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswrodLabel.Location = new System.Drawing.Point(80, 379);
             this.PasswrodLabel.Name = "PasswrodLabel";
-            this.PasswrodLabel.Size = new System.Drawing.Size(107, 17);
+            this.PasswrodLabel.Size = new System.Drawing.Size(257, 39);
             this.PasswrodLabel.TabIndex = 15;
             this.PasswrodLabel.Text = "Enter Password";
             // 
             // UserLabel
             // 
             this.UserLabel.AutoSize = true;
-            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserLabel.Location = new System.Drawing.Point(43, 342);
+            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserLabel.Location = new System.Drawing.Point(80, 617);
             this.UserLabel.Name = "UserLabel";
-            this.UserLabel.Size = new System.Drawing.Size(38, 17);
+            this.UserLabel.Size = new System.Drawing.Size(89, 39);
             this.UserLabel.TabIndex = 16;
             this.UserLabel.Text = "User";
             // 
@@ -137,35 +138,41 @@ namespace UniEats_Alpha
             "Student",
             "Driver/Rider",
             "Restaurant"});
-            this.UserTypeDropDown.Location = new System.Drawing.Point(46, 372);
+            this.UserTypeDropDown.Location = new System.Drawing.Point(87, 670);
             this.UserTypeDropDown.Name = "UserTypeDropDown";
-            this.UserTypeDropDown.Size = new System.Drawing.Size(175, 24);
+            this.UserTypeDropDown.Size = new System.Drawing.Size(250, 24);
             this.UserTypeDropDown.TabIndex = 17;
             this.UserTypeDropDown.Text = "Select a User";
             // 
-            // PasswordHide
+            // label1
             // 
-            this.PasswordHide.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.PasswordHide.BackgroundImage = global::UniEats_Alpha.Properties.Resources.PasswordIcon;
-            this.PasswordHide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PasswordHide.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.PasswordHide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PasswordHide.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.PasswordHide.Location = new System.Drawing.Point(225, 291);
-            this.PasswordHide.Name = "PasswordHide";
-            this.PasswordHide.Size = new System.Drawing.Size(47, 26);
-            this.PasswordHide.TabIndex = 19;
-            this.PasswordHide.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.PasswordHide.UseVisualStyleBackColor = false;
-            this.PasswordHide.Click += new System.EventHandler(this.PasswordHide_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(80, 500);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(295, 39);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Confirm Password";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(89, 562);
+            this.textBox1.MaxLength = 16;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(250, 26);
+            this.textBox1.TabIndex = 21;
             // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UniEats_Alpha.Properties.Resources.IphoneBack;
-            this.ClientSize = new System.Drawing.Size(315, 634);
-            this.Controls.Add(this.PasswordHide);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(642, 1029);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.UserTypeDropDown);
             this.Controls.Add(this.UserLabel);
             this.Controls.Add(this.PasswrodLabel);
@@ -175,6 +182,7 @@ namespace UniEats_Alpha
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.BackButton);
+            this.DoubleBuffered = true;
             this.Name = "RegisterForm";
             this.Text = "RegisterForm";
             this.ResumeLayout(false);
@@ -193,6 +201,7 @@ namespace UniEats_Alpha
         private System.Windows.Forms.Label PasswrodLabel;
         private System.Windows.Forms.Label UserLabel;
         private System.Windows.Forms.ComboBox UserTypeDropDown;
-        private System.Windows.Forms.Button PasswordHide;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -31,18 +31,18 @@ namespace UniEats_Alpha
 
         private void PasswordHide_Click(object sender, EventArgs e)
         {
-            if (PasswordHide.Enabled == true)
-            {
-                //PasswordTextBox.PasswordChar = default;
-                //if (MouseUp == MouseButtonState.Pressed)
-                //{
-                //    UpdateSampleResults("Left Button Pressed");
-                //}
-            }
-            else
-            {
-                PasswordTextBox.PasswordChar = '*';
-            }
+            //if (PasswordHide.Enabled == true)
+            //{
+            //    //PasswordTextBox.PasswordChar = default;
+            //    //if (MouseUp == MouseButtonState.Pressed)
+            //    //{
+            //    //    UpdateSampleResults("Left Button Pressed");
+            //    //}
+            //}
+            //else
+            //{
+            //    PasswordTextBox.PasswordChar = '*';
+            //}
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -52,8 +52,6 @@ namespace UniEats_Alpha
             home.Show();
         }
 
-       
-
-        
+     
     }
 }
