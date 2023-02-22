@@ -71,6 +71,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SparShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SparShop.Designer.cs">
+      <DependentUpon>SparShop.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewRestaurants.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SparShop.resx">
+      <DependentUpon>SparShop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewRestaurants.resx">
       <DependentUpon>ViewRestaurants.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +118,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IphoneBack.png" />
+    <None Include="Resources\Battery.png" />
+    <None Include="Resources\phoneSignal.png" />
+    <None Include="Resources\wifi.png" />
+    <None Include="Resources\SpoonsUni.jpg" />
+    <None Include="Resources\sparHull.jpg" />
+    <None Include="Resources\IphonescreenWithMap.jpg" />
+    <None Include="Resources\map%28WithoutBuildingNames%29.png" />
     <None Include="Resources\PasswordIcon.png" />
     <None Include="Resources\BackArrow.png" />
     <None Include="Resources\IphoneHomePage.png" />

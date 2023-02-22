@@ -121,13 +121,34 @@
   <data name="IphoneHomePage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IphoneHomePage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BackArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IphonescreenWithMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IphonescreenWithMap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparHull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sparHull.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpoonsUni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpoonsUni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phoneSignal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phoneSignal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map(WithoutBuildingNames)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map(WithoutBuildingNames).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasswordIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PasswordIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IphoneBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IphoneBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PasswordIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PasswordIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BackArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Battery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Battery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
