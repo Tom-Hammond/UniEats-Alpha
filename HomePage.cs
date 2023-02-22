@@ -32,5 +32,7 @@ namespace UniEats_Alpha
             RegisterForm RegisterPage = new RegisterForm();
             RegisterPage.Show();
         }
+
+      
     }
 }

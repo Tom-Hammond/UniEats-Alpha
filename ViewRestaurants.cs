@@ -17,14 +17,13 @@ namespace UniEats_Alpha
             InitializeComponent();
         }
 
-        private void ViewRestaurants_Load(object sender, EventArgs e)
+        private void shopButtonClick1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ViewRestaurants_Load_1(object sender, EventArgs e)
-        {
-
+            this.Close();
+            SparShop sparShopOpen = new SparShop();
+            sparShopOpen.Show();
         }
     }
+
+
 }
