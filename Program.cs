@@ -48,7 +48,10 @@ namespace UniEats_Alpha
            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomePage());
+            //Application.Run(new HomePage()); // Opens Home Page 
+            //Application.Run(new ViewRestaurants()); // Opens View Restaurants Page (Testing Purpose)
+            Application.Run(new LibraryCafe()); // Opens Library Restaurant Page (Testing Purpose)
+
         }
 
         
