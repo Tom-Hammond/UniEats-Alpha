@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UniEats_Alpha
 {
-    public partial class SparShop : Form
+    public partial class WetherSpoons : Form
     {
-        public SparShop()
+        public WetherSpoons()
         {
             InitializeComponent();
         }

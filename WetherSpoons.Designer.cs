@@ -1,7 +1,7 @@
 ﻿
 namespace UniEats_Alpha
 {
-    partial class SparShop
+    partial class WetherSpoons
     {
         /// <summary>
         /// Required designer variable.
