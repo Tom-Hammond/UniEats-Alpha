@@ -17,11 +17,33 @@ namespace UniEats_Alpha
             InitializeComponent();
         }
 
-        private void shopButtonClick1_Click(object sender, EventArgs e)
+
+        private void SparButton_Click(object sender, EventArgs e)
         {
             this.Close();
-            SparShop sparShopOpen = new SparShop();
-            sparShopOpen.Show();
+            SparShop Shop = new SparShop();
+            Shop.Show();
+        }
+
+        private void WetherSpoonsButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            WetherSpoons Restaurant = new WetherSpoons();
+            Restaurant.Show();
+        }
+
+        private void PantryButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Pantry Restaurant = new Pantry();
+            Restaurant.Show();
+        }
+
+        private void LibraryCafeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LibraryCafe Shop = new LibraryCafe();
+            Shop.Show();
         }
     }
 
