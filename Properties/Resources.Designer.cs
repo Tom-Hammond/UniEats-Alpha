@@ -113,9 +113,29 @@ namespace UniEats_Alpha.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LibraryCafeHull {
+            get {
+                object obj = ResourceManager.GetObject("LibraryCafeHull", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map_WithoutBuildingNames_ {
             get {
                 object obj = ResourceManager.GetObject("map(WithoutBuildingNames)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pantryHull {
+            get {
+                object obj = ResourceManager.GetObject("pantryHull", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

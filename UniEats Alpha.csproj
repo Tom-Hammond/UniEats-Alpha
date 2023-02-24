@@ -71,6 +71,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThePantry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThePantry.Designer.cs">
+      <DependentUpon>ThePantry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryCafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryCafe.Designer.cs">
+      <DependentUpon>LibraryCafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WetherSpoons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WetherSpoons.Designer.cs">
+      <DependentUpon>WetherSpoons.cs</DependentUpon>
+    </Compile>
     <Compile Include="SparShop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +115,15 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="ThePantry.resx">
+      <DependentUpon>ThePantry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryCafe.resx">
+      <DependentUpon>LibraryCafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WetherSpoons.resx">
+      <DependentUpon>WetherSpoons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SparShop.resx">
       <DependentUpon>SparShop.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +145,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IphoneBack.png" />
+    <None Include="Resources\pantryHull.jpg" />
+    <None Include="Resources\LibraryCafeHull.jpg" />
     <None Include="Resources\Battery.png" />
     <None Include="Resources\phoneSignal.png" />
     <None Include="Resources\wifi.png" />
