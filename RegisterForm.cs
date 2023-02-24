@@ -12,7 +12,7 @@ namespace UniEats_Alpha
 {
     public partial class RegisterForm : Form
     {
-        private bool isPasswordVisialePressed = false;
+
       
 
         public RegisterForm()
