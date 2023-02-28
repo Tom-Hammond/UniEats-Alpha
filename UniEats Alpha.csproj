@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasketForm.Designer.cs">
+      <DependentUpon>BasketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinsihedCheckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinsihedCheckout.Designer.cs">
+      <DependentUpon>FinsihedCheckout.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     <Compile Include="ViewRestaurants.Designer.cs">
       <DependentUpon>ViewRestaurants.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BasketForm.resx">
+      <DependentUpon>BasketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinsihedCheckout.resx">
+      <DependentUpon>FinsihedCheckout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +163,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IphoneBack.png" />
+    <None Include="Resources\costafood1.jpg" />
+    <None Include="Resources\costadrinks1.jpg" />
+    <None Include="Resources\costa food1.jpg" />
     <None Include="Resources\pantryHull.jpg" />
     <None Include="Resources\LibraryCafeHull.jpg" />
     <None Include="Resources\Battery.png" />

@@ -29,14 +29,15 @@ namespace UniEats_Alpha
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LibraryCafe));
             this.ColdDrinksBox = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.RibenaLabel = new System.Windows.Forms.Label();
+            this.DrPepperLabel = new System.Windows.Forms.Label();
+            this.SpriteLabel = new System.Windows.Forms.Label();
+            this.FTFantaLabel = new System.Windows.Forms.Label();
+            this.FantaLabel = new System.Windows.Forms.Label();
+            this.DCokeLabel = new System.Windows.Forms.Label();
+            this.CokeLabel = new System.Windows.Forms.Label();
             this.HotDrinksBox = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -44,6 +45,14 @@ namespace UniEats_Alpha
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.HotSnacksBox = new System.Windows.Forms.GroupBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.DessertsBox = new System.Windows.Forms.GroupBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -53,14 +62,6 @@ namespace UniEats_Alpha
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.HotSnacksBox = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.ColdSnacksBox = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -77,104 +78,123 @@ namespace UniEats_Alpha
             this.HotDrinks = new System.Windows.Forms.Button();
             this.ColdDrinks = new System.Windows.Forms.Button();
             this.LibraryCafeMenu = new System.Windows.Forms.GroupBox();
+            this.CheckoutButton = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.ColdDrinksBox.SuspendLayout();
             this.HotDrinksBox.SuspendLayout();
-            this.DessertsBox.SuspendLayout();
             this.HotSnacksBox.SuspendLayout();
+            this.DessertsBox.SuspendLayout();
             this.ColdSnacksBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.LibraryCafeMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // ColdDrinksBox
             // 
-            this.ColdDrinksBox.Controls.Add(this.label7);
-            this.ColdDrinksBox.Controls.Add(this.label6);
-            this.ColdDrinksBox.Controls.Add(this.label5);
-            this.ColdDrinksBox.Controls.Add(this.label4);
-            this.ColdDrinksBox.Controls.Add(this.label3);
-            this.ColdDrinksBox.Controls.Add(this.label2);
-            this.ColdDrinksBox.Controls.Add(this.label1);
+            this.ColdDrinksBox.Controls.Add(this.RibenaLabel);
+            this.ColdDrinksBox.Controls.Add(this.DrPepperLabel);
+            this.ColdDrinksBox.Controls.Add(this.SpriteLabel);
+            this.ColdDrinksBox.Controls.Add(this.FTFantaLabel);
+            this.ColdDrinksBox.Controls.Add(this.FantaLabel);
+            this.ColdDrinksBox.Controls.Add(this.DCokeLabel);
+            this.ColdDrinksBox.Controls.Add(this.CokeLabel);
             this.ColdDrinksBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ColdDrinksBox.Location = new System.Drawing.Point(16, 108);
             this.ColdDrinksBox.Name = "ColdDrinksBox";
-            this.ColdDrinksBox.Size = new System.Drawing.Size(356, 306);
+            this.ColdDrinksBox.Size = new System.Drawing.Size(410, 295);
             this.ColdDrinksBox.TabIndex = 1;
             this.ColdDrinksBox.TabStop = false;
             this.ColdDrinksBox.Text = "Cold Drinks";
             // 
-            // label7
+            // RibenaLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(7, 271);
-            this.label7.Name = "label7";
-            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label7.Size = new System.Drawing.Size(121, 20);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Ribena  -  £1.00";
+            this.RibenaLabel.AutoSize = true;
+            this.RibenaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RibenaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RibenaLabel.Location = new System.Drawing.Point(5, 252);
+            this.RibenaLabel.Name = "RibenaLabel";
+            this.RibenaLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.RibenaLabel.Size = new System.Drawing.Size(121, 20);
+            this.RibenaLabel.TabIndex = 6;
+            this.RibenaLabel.Text = "Ribena  -  £1.00";
+            this.RibenaLabel.Click += new System.EventHandler(this.RibenaLabel_Click);
             // 
-            // label6
+            // DrPepperLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 232);
-            this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label6.Size = new System.Drawing.Size(142, 20);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Dr Pepper  -  £1.20";
+            this.DrPepperLabel.AutoSize = true;
+            this.DrPepperLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DrPepperLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DrPepperLabel.Location = new System.Drawing.Point(5, 222);
+            this.DrPepperLabel.Name = "DrPepperLabel";
+            this.DrPepperLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DrPepperLabel.Size = new System.Drawing.Size(142, 20);
+            this.DrPepperLabel.TabIndex = 5;
+            this.DrPepperLabel.Text = "Dr Pepper  -  £1.20";
+            this.DrPepperLabel.Click += new System.EventHandler(this.DrPepperLabel_Click);
             // 
-            // label5
+            // SpriteLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(7, 190);
-            this.label5.Name = "label5";
-            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(112, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Sprite  -  £1.00";
+            this.SpriteLabel.AutoSize = true;
+            this.SpriteLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SpriteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpriteLabel.Location = new System.Drawing.Point(5, 190);
+            this.SpriteLabel.Name = "SpriteLabel";
+            this.SpriteLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.SpriteLabel.Size = new System.Drawing.Size(112, 20);
+            this.SpriteLabel.TabIndex = 4;
+            this.SpriteLabel.Text = "Sprite  -  £1.00";
+            this.SpriteLabel.Click += new System.EventHandler(this.SpriteLabel_Click);
             // 
-            // label4
+            // FTFantaLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(7, 151);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(188, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Fanta Fruit Twist  -  £1.10";
+            this.FTFantaLabel.AutoSize = true;
+            this.FTFantaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FTFantaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FTFantaLabel.Location = new System.Drawing.Point(5, 151);
+            this.FTFantaLabel.Name = "FTFantaLabel";
+            this.FTFantaLabel.Size = new System.Drawing.Size(188, 20);
+            this.FTFantaLabel.TabIndex = 3;
+            this.FTFantaLabel.Text = "Fanta Fruit Twist  -  £1.10";
+            this.FTFantaLabel.Click += new System.EventHandler(this.FTFantaLabel_Click);
             // 
-            // label3
+            // FantaLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 114);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Fanta  -  £1.10";
+            this.FantaLabel.AutoSize = true;
+            this.FantaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FantaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FantaLabel.Location = new System.Drawing.Point(7, 114);
+            this.FantaLabel.Name = "FantaLabel";
+            this.FantaLabel.Size = new System.Drawing.Size(112, 20);
+            this.FantaLabel.TabIndex = 2;
+            this.FantaLabel.Text = "Fanta  -  £1.10";
+            this.FantaLabel.Click += new System.EventHandler(this.FantaLabel_Click);
             // 
-            // label2
+            // DCokeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Diet Coke  -  £1.10";
+            this.DCokeLabel.AutoSize = true;
+            this.DCokeLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DCokeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DCokeLabel.Location = new System.Drawing.Point(7, 76);
+            this.DCokeLabel.Name = "DCokeLabel";
+            this.DCokeLabel.Size = new System.Drawing.Size(140, 20);
+            this.DCokeLabel.TabIndex = 1;
+            this.DCokeLabel.Text = "Diet Coke  -  £1.10";
+            this.DCokeLabel.Click += new System.EventHandler(this.DCokeLabel_Click);
             // 
-            // label1
+            // CokeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Coca-Cola  -  £1.20";
+            this.CokeLabel.AutoSize = true;
+            this.CokeLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CokeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CokeLabel.Location = new System.Drawing.Point(5, 41);
+            this.CokeLabel.Name = "CokeLabel";
+            this.CokeLabel.Size = new System.Drawing.Size(144, 20);
+            this.CokeLabel.TabIndex = 0;
+            this.CokeLabel.Text = "Coca-Cola  -  £1.20";
+            this.CokeLabel.Click += new System.EventHandler(this.CokeLabel_Click);
             // 
             // HotDrinksBox
             // 
@@ -196,6 +216,7 @@ namespace UniEats_Alpha
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(7, 232);
             this.label9.Name = "label9";
@@ -207,6 +228,7 @@ namespace UniEats_Alpha
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(7, 190);
             this.label10.Name = "label10";
@@ -214,46 +236,160 @@ namespace UniEats_Alpha
             this.label10.Size = new System.Drawing.Size(154, 20);
             this.label10.TabIndex = 4;
             this.label10.Text = "Cappuccino  -  £2.35";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(7, 151);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(118, 20);
             this.label11.TabIndex = 3;
             this.label11.Text = "Mocha  -  £2.60";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(7, 114);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(146, 20);
             this.label12.TabIndex = 2;
             this.label12.Text = "Americano  -  £2.00";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(7, 76);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(142, 20);
             this.label13.TabIndex = 1;
             this.label13.Text = "Flat White  -  £2.35";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(7, 41);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(107, 20);
             this.label14.TabIndex = 0;
             this.label14.Text = "Latte  -  £2.35";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // HotSnacksBox
+            // 
+            this.HotSnacksBox.Controls.Add(this.label15);
+            this.HotSnacksBox.Controls.Add(this.label16);
+            this.HotSnacksBox.Controls.Add(this.label17);
+            this.HotSnacksBox.Controls.Add(this.label18);
+            this.HotSnacksBox.Controls.Add(this.label19);
+            this.HotSnacksBox.Controls.Add(this.label20);
+            this.HotSnacksBox.Controls.Add(this.label21);
+            this.HotSnacksBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HotSnacksBox.Location = new System.Drawing.Point(16, 108);
+            this.HotSnacksBox.Name = "HotSnacksBox";
+            this.HotSnacksBox.Size = new System.Drawing.Size(356, 306);
+            this.HotSnacksBox.TabIndex = 8;
+            this.HotSnacksBox.TabStop = false;
+            this.HotSnacksBox.Text = "Hot Snacks";
+            this.HotSnacksBox.Visible = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(7, 271);
+            this.label15.Name = "label15";
+            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label15.Size = new System.Drawing.Size(148, 20);
+            this.label15.TabIndex = 6;
+            this.label15.Text = "Vegan Roll  -  £1.90";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(7, 232);
+            this.label16.Name = "label16";
+            this.label16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label16.Size = new System.Drawing.Size(165, 20);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "Sausage Roll  -  £1.80";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(7, 190);
+            this.label17.Name = "label17";
+            this.label17.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label17.Size = new System.Drawing.Size(257, 20);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Vegan BBQ Chick\'n Panini  -  £2.35";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(7, 151);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(140, 20);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Tuna Melt  -  £2.60";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(7, 114);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(172, 20);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "Mac n Cheese  -  £3.10";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(7, 76);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(212, 20);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Chicken Fajita Wrap  -  £4.35";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(7, 41);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(250, 20);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Cheese and Ham Toastie  -  £3.99";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // DessertsBox
             // 
@@ -277,6 +413,7 @@ namespace UniEats_Alpha
             // label29
             // 
             this.label29.AutoSize = true;
+            this.label29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(7, 270);
             this.label29.Name = "label29";
@@ -284,6 +421,7 @@ namespace UniEats_Alpha
             this.label29.Size = new System.Drawing.Size(147, 20);
             this.label29.TabIndex = 6;
             this.label29.Text = "Rolo Muffin -  £2.00";
+            this.label29.Click += new System.EventHandler(this.label29_Click_1);
             // 
             // label30
             // 
@@ -299,6 +437,7 @@ namespace UniEats_Alpha
             // label31
             // 
             this.label31.AutoSize = true;
+            this.label31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(7, 232);
             this.label31.Name = "label31";
@@ -306,10 +445,12 @@ namespace UniEats_Alpha
             this.label31.Size = new System.Drawing.Size(242, 20);
             this.label31.TabIndex = 5;
             this.label31.Text = "Choclate Cornflake Cake -  £0.60";
+            this.label31.Click += new System.EventHandler(this.label31_Click_1);
             // 
             // label32
             // 
             this.label32.AutoSize = true;
+            this.label32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(7, 190);
             this.label32.Name = "label32";
@@ -317,137 +458,55 @@ namespace UniEats_Alpha
             this.label32.Size = new System.Drawing.Size(161, 20);
             this.label32.TabIndex = 4;
             this.label32.Text = "Bakewell Tart -  £1.35";
+            this.label32.Click += new System.EventHandler(this.label32_Click_1);
             // 
             // label33
             // 
             this.label33.AutoSize = true;
+            this.label33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(7, 151);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(223, 20);
             this.label33.TabIndex = 3;
             this.label33.Text = "Millionaire Shortbread  -  £2.49";
+            this.label33.Click += new System.EventHandler(this.label33_Click_1);
             // 
             // label34
             // 
             this.label34.AutoSize = true;
+            this.label34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(7, 114);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(182, 20);
             this.label34.TabIndex = 2;
             this.label34.Text = "Choclate Cookie -  £1.29";
+            this.label34.Click += new System.EventHandler(this.label34_Click_1);
             // 
             // label35
             // 
             this.label35.AutoSize = true;
+            this.label35.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(7, 76);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(125, 20);
             this.label35.TabIndex = 1;
             this.label35.Text = "Flapjack -  £1.79";
+            this.label35.Click += new System.EventHandler(this.label35_Click_1);
             // 
             // label36
             // 
             this.label36.AutoSize = true;
+            this.label36.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(7, 41);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(190, 20);
             this.label36.TabIndex = 0;
             this.label36.Text = "Choclate Brownie -  £1.99";
-            // 
-            // HotSnacksBox
-            // 
-            this.HotSnacksBox.Controls.Add(this.label15);
-            this.HotSnacksBox.Controls.Add(this.label16);
-            this.HotSnacksBox.Controls.Add(this.label17);
-            this.HotSnacksBox.Controls.Add(this.label18);
-            this.HotSnacksBox.Controls.Add(this.label19);
-            this.HotSnacksBox.Controls.Add(this.label20);
-            this.HotSnacksBox.Controls.Add(this.label21);
-            this.HotSnacksBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HotSnacksBox.Location = new System.Drawing.Point(16, 108);
-            this.HotSnacksBox.Name = "HotSnacksBox";
-            this.HotSnacksBox.Size = new System.Drawing.Size(356, 306);
-            this.HotSnacksBox.TabIndex = 8;
-            this.HotSnacksBox.TabStop = false;
-            this.HotSnacksBox.Text = "Hot Snacks";
-            this.HotSnacksBox.Visible = false;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(7, 271);
-            this.label15.Name = "label15";
-            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label15.Size = new System.Drawing.Size(148, 20);
-            this.label15.TabIndex = 6;
-            this.label15.Text = "Vegan Roll  -  £1.90";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(7, 232);
-            this.label16.Name = "label16";
-            this.label16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label16.Size = new System.Drawing.Size(165, 20);
-            this.label16.TabIndex = 5;
-            this.label16.Text = "Sausage Roll  -  £1.80";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(7, 190);
-            this.label17.Name = "label17";
-            this.label17.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label17.Size = new System.Drawing.Size(257, 20);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Vegan BBQ Chick\'n Panini  -  £2.35";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(7, 151);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(140, 20);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "Tuna Melt  -  £2.60";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(7, 114);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(172, 20);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Mac n Cheese  -  £3.10";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(7, 76);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(212, 20);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Chicken Fajita Wrap  -  £4.35";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(7, 41);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(250, 20);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Cheese and Ham Toastie  -  £3.99";
+            this.label36.Click += new System.EventHandler(this.label36_Click_1);
             // 
             // ColdSnacksBox
             // 
@@ -471,6 +530,7 @@ namespace UniEats_Alpha
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(7, 270);
             this.label8.Name = "label8";
@@ -478,6 +538,7 @@ namespace UniEats_Alpha
             this.label8.Size = new System.Drawing.Size(198, 20);
             this.label8.TabIndex = 6;
             this.label8.Text = "Pineapple Chunks  -  £1.00";
+            this.label8.Click += new System.EventHandler(this.label8_Click_1);
             // 
             // label22
             // 
@@ -493,6 +554,7 @@ namespace UniEats_Alpha
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(7, 232);
             this.label23.Name = "label23";
@@ -500,10 +562,12 @@ namespace UniEats_Alpha
             this.label23.Size = new System.Drawing.Size(165, 20);
             this.label23.TabIndex = 5;
             this.label23.Text = "Sausage Roll  -  £1.60";
+            this.label23.Click += new System.EventHandler(this.label23_Click_1);
             // 
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(7, 190);
             this.label24.Name = "label24";
@@ -511,46 +575,55 @@ namespace UniEats_Alpha
             this.label24.Size = new System.Drawing.Size(248, 20);
             this.label24.TabIndex = 4;
             this.label24.Text = "Egg and Cress Sandwich  -  £2.35";
+            this.label24.Click += new System.EventHandler(this.label24_Click_1);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(7, 151);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(179, 20);
             this.label25.TabIndex = 3;
             this.label25.Text = "Tuna Sandwich  -  £2.49";
+            this.label25.Click += new System.EventHandler(this.label25_Click_1);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
+            this.label26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(7, 114);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(200, 20);
             this.label26.TabIndex = 2;
             this.label26.Text = "Chicken Sandwich  -  £2.59";
+            this.label26.Click += new System.EventHandler(this.label26_Click_1);
             // 
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(7, 76);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(229, 20);
             this.label27.TabIndex = 1;
             this.label27.Text = "Prawn Mayo Sandwich  -  £2.79";
+            this.label27.Click += new System.EventHandler(this.label27_Click_1);
             // 
             // label28
             // 
             this.label28.AutoSize = true;
+            this.label28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(7, 41);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(172, 20);
             this.label28.TabIndex = 0;
             this.label28.Text = "BLT Sandwich  -  £2.99";
+            this.label28.Click += new System.EventHandler(this.label28_Click_1);
             // 
             // groupBox2
             // 
@@ -627,6 +700,7 @@ namespace UniEats_Alpha
             // 
             // LibraryCafeMenu
             // 
+            this.LibraryCafeMenu.Controls.Add(this.CheckoutButton);
             this.LibraryCafeMenu.Controls.Add(this.groupBox2);
             this.LibraryCafeMenu.Controls.Add(this.ColdDrinksBox);
             this.LibraryCafeMenu.Controls.Add(this.HotSnacksBox);
@@ -634,12 +708,54 @@ namespace UniEats_Alpha
             this.LibraryCafeMenu.Controls.Add(this.DessertsBox);
             this.LibraryCafeMenu.Controls.Add(this.ColdSnacksBox);
             this.LibraryCafeMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LibraryCafeMenu.Location = new System.Drawing.Point(86, 505);
+            this.LibraryCafeMenu.Location = new System.Drawing.Point(86, 501);
             this.LibraryCafeMenu.Name = "LibraryCafeMenu";
-            this.LibraryCafeMenu.Size = new System.Drawing.Size(457, 435);
+            this.LibraryCafeMenu.Size = new System.Drawing.Size(490, 485);
             this.LibraryCafeMenu.TabIndex = 11;
             this.LibraryCafeMenu.TabStop = false;
             this.LibraryCafeMenu.Text = "Library Cafe Menu";
+            // 
+            // CheckoutButton
+            // 
+            this.CheckoutButton.Location = new System.Drawing.Point(43, 409);
+            this.CheckoutButton.Name = "CheckoutButton";
+            this.CheckoutButton.Size = new System.Drawing.Size(397, 70);
+            this.CheckoutButton.TabIndex = 11;
+            this.CheckoutButton.Text = "Checkout ";
+            this.CheckoutButton.UseVisualStyleBackColor = true;
+            this.CheckoutButton.Click += new System.EventHandler(this.CheckoutButton_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::UniEats_Alpha.Properties.Resources.costafood1;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(86, 307);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(490, 179);
+            this.pictureBox3.TabIndex = 16;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(178, 85);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(290, 54);
+            this.label37.TabIndex = 17;
+            this.label37.Text = "Library Cafe";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(81, 170);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(500, 120);
+            this.label38.TabIndex = 18;
+            this.label38.Text = resources.GetString("label38.Text");
             // 
             // LibraryCafe
             // 
@@ -648,37 +764,41 @@ namespace UniEats_Alpha
             this.BackgroundImage = global::UniEats_Alpha.Properties.Resources.IphoneHomePage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(642, 1029);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label37);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.LibraryCafeMenu);
             this.DoubleBuffered = true;
             this.Name = "LibraryCafe";
             this.Text = "SparShop";
-            this.Load += new System.EventHandler(this.SparShop_Load);
             this.ColdDrinksBox.ResumeLayout(false);
             this.ColdDrinksBox.PerformLayout();
             this.HotDrinksBox.ResumeLayout(false);
             this.HotDrinksBox.PerformLayout();
-            this.DessertsBox.ResumeLayout(false);
-            this.DessertsBox.PerformLayout();
             this.HotSnacksBox.ResumeLayout(false);
             this.HotSnacksBox.PerformLayout();
+            this.DessertsBox.ResumeLayout(false);
+            this.DessertsBox.PerformLayout();
             this.ColdSnacksBox.ResumeLayout(false);
             this.ColdSnacksBox.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.LibraryCafeMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.GroupBox ColdDrinksBox;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label RibenaLabel;
+        private System.Windows.Forms.Label DrPepperLabel;
+        private System.Windows.Forms.Label SpriteLabel;
+        private System.Windows.Forms.Label FTFantaLabel;
+        private System.Windows.Forms.Label FantaLabel;
+        private System.Windows.Forms.Label DCokeLabel;
+        private System.Windows.Forms.Label CokeLabel;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button ColdSnacks;
         private System.Windows.Forms.Button HotSnacks;
@@ -719,5 +839,9 @@ namespace UniEats_Alpha
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.GroupBox LibraryCafeMenu;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Button CheckoutButton;
     }
 }

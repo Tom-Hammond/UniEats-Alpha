@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label38.Text" xml:space="preserve">
+    <value>The Librry Cafe is a great place to order form if you are looking for a
+quick hot or cold snack or maybe a nice costa as  a reward for all the
+hard work youve put into your work. 
+
+Delivery is speedy and can be delivered in as little as 10 minutes which
+makes it great if short on time.</value>
+  </data>
 </root>
