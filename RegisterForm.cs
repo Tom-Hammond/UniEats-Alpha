@@ -26,7 +26,35 @@ namespace UniEats_Alpha
 
         private void SignupBotton_Click(object sender, EventArgs e)
         {
-
+            bool DuplicateUname = false;
+            if (UsernameTextBox.Text != "")
+            {
+                foreach (string username in Program.userName)
+                { 
+                    if (UsernameTextBox.Text == username)
+                    {
+                        InvaildUname.Visible = true;
+                        DuplicateUname = true;
+                        break;
+                    }
+                }
+                if (DuplicateUname == false)
+                {
+                    if (PasswordTextBox.Text != "")
+                    {
+                        if (PasswordTextBox.Text == textBox1.Text)
+                        {
+                            if (UserTypeDropDown.Text != "")
+                            {
+                                this.Hide();
+                                ViewRestaurants ViewRestaurantsPage = new ViewRestaurants();
+                                ViewRestaurantsPage.Show();
+                            }
+                        }
+                    }
+                }
+                
+            }
         }
 
         private void PasswordHide_Click(object sender, EventArgs e)

@@ -40,6 +40,7 @@ namespace UniEats_Alpha
             this.UserTypeDropDown = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.InvaildUname = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SignupBotton
@@ -164,6 +165,17 @@ namespace UniEats_Alpha
             this.textBox1.Size = new System.Drawing.Size(250, 26);
             this.textBox1.TabIndex = 21;
             // 
+            // InvaildUname
+            // 
+            this.InvaildUname.AutoSize = true;
+            this.InvaildUname.Font = new System.Drawing.Font("Microsoft Tai Le", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InvaildUname.Location = new System.Drawing.Point(84, 734);
+            this.InvaildUname.Name = "InvaildUname";
+            this.InvaildUname.Size = new System.Drawing.Size(189, 29);
+            this.InvaildUname.TabIndex = 22;
+            this.InvaildUname.Text = "Username in use";
+            this.InvaildUname.Visible = false;
+            // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,6 +183,7 @@ namespace UniEats_Alpha
             this.BackgroundImage = global::UniEats_Alpha.Properties.Resources.IphoneBack;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(642, 1029);
+            this.Controls.Add(this.InvaildUname);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UserTypeDropDown);
@@ -203,5 +216,6 @@ namespace UniEats_Alpha
         private System.Windows.Forms.ComboBox UserTypeDropDown;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label InvaildUname;
     }
 }

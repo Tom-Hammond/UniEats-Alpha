@@ -26,7 +26,7 @@ namespace UniEats_Alpha
 
           
 
-            using (var reader = new StreamReader("Users.csv"))
+            using (var reader = new StreamReader(@"C:\Users\664772\Source\Repos\UniEats-Alpha\Users.csv"))
             {
 
                 while (!reader.EndOfStream)
